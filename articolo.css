@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 0%;
+}
+.articolo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+    gap: 5%;
+    width: 95%;
+    background-color: #fbf7e3ff;
+    padding: 2.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    color: #612507ff;
+    box-shadow: 0px 0px 4px;
+
+}
+.articolo:hover{
+    box-shadow: 0px 0px 8px;
+    scale: 101% 101%;
+    transition-duration: 0.2s;
+}
+.descrizione{
+    width: 50%;
+    flex: 1 1 500px;
+
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 40%;
+    margin: 0%;
+    flex: 1 1 500px;
+    border-radius: 30px;
+
+}
